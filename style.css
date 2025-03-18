@@ -68,3 +68,27 @@ section {
     font-family:Arial;
     
  }
+ #resposta {
+    max-height: 200px; /* Garante que não aumente mais que isso */
+    margin: 10px auto; /* Reduzi a margem */
+    padding: 5px; /* Reduzi o padding */
+    overflow-y: auto; /* Adiciona rolagem vertical */
+    font-family: monospace;
+}
+#resposta::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+#resposta::-webkit-scrollbar-track {
+    background: #111; /* Cor do fundo da barra */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+#resposta::-webkit-scrollbar-thumb {
+    background: #00FF00; /* Cor da barra de rolagem */
+    border-radius: 10px;
+}
+
+#resposta::-webkit-scrollbar-thumb:hover {
+    background: #00cc00; /* Cor ao passar o mouse */
+}

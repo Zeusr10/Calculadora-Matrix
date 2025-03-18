@@ -15,7 +15,6 @@ function Tabuada(){
         res.innerHTML += `${n} X ${x}=  ${r}<br>`
         x++ 
     }while(x <=  e)
-    
 }}
 const canvas = document.getElementById("matrix");
 const ctx = canvas.getContext("2d");
