@@ -92,3 +92,10 @@ section {
 #resposta::-webkit-scrollbar-thumb:hover {
     background: #00cc00; /* Cor ao passar o mouse */
 }
+p.assinatura {
+    font-size: 14px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}

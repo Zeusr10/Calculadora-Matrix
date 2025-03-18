@@ -7,6 +7,7 @@ function Tabuada(){
     var n = Number(num.value);
     var e = Number(end.value);
     var r= '';
+    var s='';
     x = 0
     var res = window.document.getElementById('resposta')
     res.innerHTML = `A tabuada do ${n} é: <br>`
@@ -14,7 +15,7 @@ function Tabuada(){
         r = n * x
         res.innerHTML += `${n} X ${x}=  ${r}<br>`
         x++ 
-    }while(x <=  e)
+    }while(x <=  e)  
 }}
 const canvas = document.getElementById("matrix");
 const ctx = canvas.getContext("2d");
